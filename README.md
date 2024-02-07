@@ -1,8 +1,7 @@
 # Bootscreen
 I have added a custom animated boot screen by using Windows Paint to create frame_x.bmp files. To generate the bitmap, I used [this website](https://marlinfw.org/tools/u8glib/converter.html)
 
-## In this section, I have added frame time periods.
-### Find this line in your bootscreen.h file
+### In this section, I have added frame time periods.
 
 ```C++
 #ifdef CUSTOM_BOOTSCREEN_ANIMATED_FRAME_TIME
